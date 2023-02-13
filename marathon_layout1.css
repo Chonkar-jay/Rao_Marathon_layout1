@@ -1,0 +1,29 @@
+.logo
+{
+    display: inline-flex;
+    position:absolute;
+    left: 45%;
+    right: 55%;
+    top: 2%;
+    width: 75px;
+    height: 75px;
+}
+.logo h4
+{
+    display:inline-flex;
+    align-items: center;
+    
+}
+.main_img
+{
+    
+}
+.Main_box_bg
+{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgb(86, 151, 211);
+    padding: 20px;
+    border-top-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
