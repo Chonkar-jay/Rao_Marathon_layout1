@@ -1,24 +1,28 @@
-.logo
+.col-md-5
 {
     display: inline-flex;
     position:absolute;
-    left: 45%;
-    right: 55%;
+    left: 37%;
+    right: 63%;
     top: 2%;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
+
 }
 .logo h4
 {
-    display:inline-flex;
+    display:flex;
+    position: relative;
     align-items: center;
-    
+    font-size: xx-large;
 }
-.main_img
+.main_img img
 {
-    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 0px;
 }
-.Main_box_bg
+.main_box
 {
     box-sizing: border-box;
     width: 50%;
@@ -26,4 +30,21 @@
     padding: 20px;
     border-top-left-radius:15px ;
     border-bottom-right-radius:15px ;
+    margin-left: 25%;
 }
+.main_box_discription
+{
+    background-color: cyan;
+    margin-left: 30%;
+    width: 40%;
+    
+}
+.left_body_section
+{
+    display:inline-flex
+}
+.right_body_section
+{
+    display:inline-flex
+}
+
